@@ -1,3 +1,5 @@
+//Not in use atm, future release
+
 import React from 'react'
 
 export const PokeMoves = ({pokemonItem}) => {

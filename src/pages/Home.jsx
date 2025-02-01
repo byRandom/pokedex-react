@@ -10,20 +10,20 @@ regions.forEach((region, index) => {
 
 export const Home = () => {
   return (
-    <section className='nes-container with-title is-centered  flex flex-col items-center justify-center w-full md:size-full h-full p-0'>
+    <section className='nes-container with-title is-centered  flex flex-col items-center justify-center md:m-auto md:w-[50%] h-fit p-0'>
       <p className="title">  </p>
       <TypeAnimation sequence={sequence}
       wrapper="span"
       speed={50}
       repeat={Infinity}
-      className='nes-text md:text-lg'
+      className='md:text-lg md:!w-[70%] md:m-auto'
     />
 
-    <p className='nes-text nes-container is-rounded is-dark is-primary m-2 p-4 w-full'>
+    <p className='nes-text nes-container is-rounded is-dark is-primary m-2 p-4 w-full md:!m-auto md:w-[60%] lg:w-[70%] xl:w-[80%]'>
     Para empezar, pulsa en el boton superior, donde dice Pokédex.
     Si quieres saber mas sobre esta aplicación y con que fue desarrollada, visita el repositorio en GitHub.
     </p>
-    <ul className='flex flex-row flex-wrap'>
+    <ul className='flex flex-row flex-wrap gap-2 w-full -m-2 md:w-[60%] md:m-auto lg:pl-[-10px] xl:pl-32'>
       <li>
         <a href="https://github.com/byRandom/pokedex-react" className="nes-badge">
           <span className="is-dark">Github<i className="nes-icon github is-small"></i></span>

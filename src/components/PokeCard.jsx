@@ -1,7 +1,7 @@
 import React from 'react'
 import { PokeAbilities } from './PokeAbilities'
 import { PokeStats } from './PokeStats'
-import { PokeMoves } from './PokeMoves'
+//import { PokeMoves } from './PokeMoves'
 import { PokeCaroussel } from './PokeCaroussel'
 
 export const PokeCard = ({pokemonItem, pokemonImage, setPokemonImage}) => {

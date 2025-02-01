@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import '../styles.css'
 import { PokeCard } from './PokeCard'
 import * as PokedexWrapper from 'pokeapi-js-wrapper'
 

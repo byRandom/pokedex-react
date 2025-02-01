@@ -13,12 +13,14 @@
 
 ```bash
 bun install
+```
+## Desarrollo
 
-Desarrollo
+```bash
+bun run dev
+```
+## Build para produccion
 
-
-Build para produccion
-
+```bash
 bun run build
-
 ```

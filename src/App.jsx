@@ -1,6 +1,6 @@
 import * as PokedexWrapper from 'pokeapi-js-wrapper'
 import { useLayoutEffect, useMemo, useState } from 'react'
-import { NavBar } from './Components/NavBar'
+import { NavBar } from './components/NavBar'
 import { Pokedex } from './pages/Pokedex'
 import { Home } from './pages/Home'
 import { BrowserRouter, Routes, Route } from "react-router";

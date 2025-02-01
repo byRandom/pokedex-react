@@ -23,7 +23,7 @@ export const Home = () => {
     Para empezar, pulsa en el boton superior, donde dice Pokédex.
     Si quieres saber mas sobre esta aplicación y con que fue desarrollada, visita el repositorio en GitHub.
     </p>
-    <ul className='flex flex-row flex-wrap gap-2 w-full -m-2 md:w-[60%] md:m-auto lg:pl-[-10px] xl:pl-32'>
+    <ul className='flex flex-row flex-wrap gap-2 w-full -m-2 md:w-[60%] md:m-auto lg:pl-[-10px] xl:pl-[0%] 2xl:pl-25'>
       <li>
         <a href="https://github.com/byRandom/pokedex-react" className="nes-badge">
           <span className="is-dark">Github<i className="nes-icon github is-small"></i></span>

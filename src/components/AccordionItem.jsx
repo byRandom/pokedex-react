@@ -34,7 +34,7 @@ export const AccordionItem = ({ pokemon, index, isActive, onToggle }) => {
           aria-expanded={isActive}
           aria-controls={`accordion-collapse-body-${index}`}
         >
-          <span>{pokemon.name}</span>
+          <span>{"#" + pokemonId} {pokemon.name}</span>
           <svg
             data-accordion-icon
             className={`w-3 h-3 ${isActive ? 'rotate-180' : ''} shrink-0`}

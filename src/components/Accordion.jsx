@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { AccordionItem } from './AccordionItem'
-
 export const Accordion = ({ pokemonListState }) => {
   const [activeIndex, setActiveIndex] = useState(null)
 

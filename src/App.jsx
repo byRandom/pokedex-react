@@ -11,7 +11,6 @@ function App() {
   
   const getPokemons = async () => {
     if(pokemonListState.length === 0) {
-      console.log("UseLayoutEffect:", pokemonListState.length)
       const p = new PokedexWrapper.Pokedex()
       p.getPokemonsList().then((response) => {
         let pokemon = response.results
@@ -19,7 +18,6 @@ function App() {
           element.Id = element.url.split('/')[6]
         }
         )
-        console.log("UseLayoutEffect:", pokemon)
         setPokemonList(pokemon)
       })
     }

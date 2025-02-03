@@ -1,10 +1,10 @@
 import React from 'react'
 import { PokemonList } from '../components/PokemonList'
 
-export const Pokedex = ({pokemonListState}) => {
+export const Pokedex = () => {
   return (
     <>
-        <PokemonList pokemonListState={pokemonListState}/>
+        <PokemonList/>
     </>
   )
 }

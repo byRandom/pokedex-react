@@ -49,7 +49,7 @@ export const AccordionItem = ({ pokemon, index, isActive, onToggle }) => {
       </h2>
       <div
         id={`accordion-collapse-body-${index}`}
-        className={`${isActive ? '' : 'hidden'} nes-container `}
+        className={`${isActive ? '' : 'hidden'} nes-container !p-4 `}
         aria-labelledby={`accordion-collapse-heading-${index} `}
       >
         <div className=" is-centered md:m-auto self-center">

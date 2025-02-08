@@ -10,7 +10,7 @@ export const Accordion = () => {
   const getPokemons = async () => {
     if(pokemonListState.length === 0) {
       const p = new PokedexWrapper.Pokedex()
-      p.getPokemonsList({limit:10}).then((response) => {
+      p.getPokemonsList({limit:25}).then((response) => {
         let pokemon = response.results
         pokemon.forEach((element) => {
           element.Id = element.url.split('/')[6]
